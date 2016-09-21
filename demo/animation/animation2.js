@@ -9,6 +9,7 @@ import {
   Dimensions,
 } from 'react-native';
 import LoginButton from '../../app/lib/LoginButton';
+// 一个AnimatedValue同时驱动两三个属性，透明度，Y的位置以及scale
 export default
 class Demo extends React.Component {
   state: { //可以不写，我这里写是为了去除flow警告

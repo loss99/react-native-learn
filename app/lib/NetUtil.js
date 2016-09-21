@@ -1,4 +1,5 @@
 let NetUtil = {
+  // postJson:(url, data, callback)=>{
   postJson(url, data, callback){
         var fetchOptions = {
           method: 'POST',

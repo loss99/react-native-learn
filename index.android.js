@@ -21,5 +21,8 @@ import Animation2 from './demo/animation/animation2';
 import Gesture from './demo/animation/gesture';
 import Gesture2 from './demo/animation/gesture2';
 import LayoutAnimation from './demo/animation/LayoutAnimation';
+import ActivityIndicator from './demo/assembly/ActivityIndicator';
+import DrawerLayoutAndroid from './demo/assembly/DrawerLayoutAndroid';
+import toolbar from './demo/assembly/toolbar';
 
-AppRegistry.registerComponent('AwesomeProject', () => LayoutAnimation);
+AppRegistry.registerComponent('AwesomeProject', () => toolbar);
